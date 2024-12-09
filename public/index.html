@@ -100,7 +100,7 @@
 
         const editor = document.getElementById('editor');
         const statusDiv = document.getElementById('status');
-        const socket = new WebSocket('ws://localhost:3000');
+        const socket = new WebSocket('wss://ot-0h1o.onrender.com');
         const client = new ClientOT();
 
         socket.onopen = () => {
